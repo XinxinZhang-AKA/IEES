@@ -1,0 +1,15 @@
+transformers
+fschat
+openai>=1.25.1
+sentence_transformers
+matplotlib
+accelerate
+pandas
+tenacity
+wandb
+numpy
+faiss-cpu # Or faiss-gpu if you have CUDA installed
+dashscope # For Qwen
+google-generativeai # For Gemini
+google-api-python-client # Often needed with google libs
+
