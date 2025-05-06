@@ -109,25 +109,7 @@ python data_results.py --llm_provider openai \
 
 Generated result files are stored in the `./results/` directory.
 
-## Repository Structure
 
-The repository is organized as follows:
-
-```
-.
-├── framework/          # Core framework components (Attacker, Scorer, Summarizer, etc.)
-├── llm/                # LLM API wrappers (Qwen, OpenAI)
-├── data/               # Dataset files (e.g., harmful_behavior_requests.json)
-├── logs/               # Directory for runtime logs and strategy libraries
-├── results/            # Directory for generated results from data_results.py
-├── main.py             # Main execution script (Training & Learning)
-├── test.py             # Single request testing script
-├── data_results.py     # Dataset result generation script
-├── pipeline.py         # Defines Warm-up and Lifelong processes
-├── calculate_entropy.py # (Optional) Script for strategy library diversity analysis
-├── requirements.txt    # Python dependencies
-└── README.md           # This document
-```
 
 ## Usage Notes
 
