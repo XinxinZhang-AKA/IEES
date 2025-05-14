@@ -6,7 +6,7 @@ import argparse
 import logging
 import os
 
-from pipeline import IEES_Pipeline # 重命名导入
+from pipeline import IEES_Pipeline 
 import wandb
 import datetime
 import json
